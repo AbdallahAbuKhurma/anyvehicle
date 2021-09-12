@@ -1,0 +1,78 @@
+/* main {
+  margin: 20px 20px 0 20px;
+  display: flex;
+}
+#container {
+  width: 70vw;
+  margin: 0 5px 20px 5px;
+}
+#tickets {
+  gap: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+#online-staff {
+  text-align: center;
+  width: 30vw;
+}
+.ticket {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+article button {
+  background-color: deepskyblue;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+} */
+
+.sevice-con{
+  margin-top: 8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: -10rem;
+}
+
+.remove {
+  color: red;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}
+.remove:hover,
+.remove:active,
+.remove:focus {
+  outline-color: transparent;
+  font-weight: bold;
+  color: orange;
+  text-decoration: none;
+}
+
+.serPro-save{
+  background-color: #0275d8;
+  color: #fff;
+  height: 2rem;
+  width: 7rem;
+  border-radius: 5px;
+  border: 0;
+}
+
+.serPro-close{
+  background-color: #aaa;
+  color: #fff;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 5px;
+  border: 0;
+}

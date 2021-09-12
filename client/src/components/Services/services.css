@@ -1,0 +1,20 @@
+
+.add-service-container{
+  margin-top: 8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 8rem;
+}
+
+.add1{
+  margin-bottom: 1rem;
+}
+
+.add-ps-button{
+  background-color: #0275d8;
+  color: #fff;
+  height: 2rem;
+  width: 7rem;
+  border-radius: 5px;
+  border: 0;
+}
