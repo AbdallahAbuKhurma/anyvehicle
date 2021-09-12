@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* rgb(202, 195, 195) */
+
+.nav-container1 {
+  color: rgb(207, 199, 199);
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.nav-logo{
+  width: 18rem;
+  height: 8rem;
+}
+
+.nav1 {
+  position: relative;
+  background-color: #222;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.nav1 .nav-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15.5px;
+  padding-bottom: 6.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav1 ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content:space-between;
+  /* padding-top: 7px; */
+}
+
+.nav1 ul li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav1 a {
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav1 {
+  background-color: #4C4C4C;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.nav1 a.nav-current,
+.nav1 a:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+/* ===================================================================second nav */
+
+.nav-container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav2 {
+  position: relative;
+  background-color: #414141;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav2 .nav-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav2 ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content:space-between;
+  margin-left: -1.5rem;
+  padding-top: 7px;
+}
+
+.nav2 a {
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav2.active-nav {
+  background-color:rgba(0, 0, 0, 0.680);
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.nav2.active-nav a {
+  color: rgb(207, 199, 199);
+  font-size: larger;
+}
+
+.nav2.active-nav .nav-container {
+  /* padding: 10px 0; */
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.nav2 a:hover {
+  font-weight: bold;
+  border-bottom: solid yellow 5px;
+}
+
+.call-us{
+  color: #fff;
+  background-color: red;
+}
